@@ -4,18 +4,37 @@
 
 @layer components {
   .navbar {
-    @apply w-full shadow;
+    @apply w-full shadow relative;
   }
-  
+
   .nav {
-    @apply max-w-screen-xl mx-auto w-full flex justify-between;
+    @apply max-w-screen-xl mx-auto w-full flex justify-between px-2;
   }
 
   .nav__logo {
-    @apply w-32 block;
+    @apply w-40 cursor-pointer;
+  }
+
+  .nav__menu {
+    @apply fixed top-16 -right-full p-4 bg-slate-100 w-full duration-500;
   }
 
   .nav__list {
-    @apply flex space-x-6;
+    @apply flex flex-col;
+  }
+
+  .nav__item {
+    @apply p-2 hover:bg-[#fff1c5];
+  }
+
+  .nav__toggle-icon {
+    @apply text-2xl text-gray-600 cursor-pointer;
   }
 }
+
+@layer utilities {
+  body {
+    font-family: "Titillium Web", sans-serif;
+  }
+}
+  
