@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
+import ActiveLink from "../ActiveLink/ActiveLink";
 
 const Header = () => {
   const [toggle, setToggle] = useState(true);
@@ -12,24 +13,24 @@ const Header = () => {
           <div className={toggle ? "nav__menu" : "nav__menu right-0"}>
             <ul className="nav__list">
               <li className="nav__item">
-                <a href="/" className="nav__link">
+                <ActiveLink to="/home" className="nav__link">
                   Home
-                </a>
+                </ActiveLink>
               </li>
               <li className="nav__item">
-                <a href="/" className="nav__link">
+                <ActiveLink to="/coins" className="nav__link">
                   Coins
-                </a>
+                </ActiveLink>
               </li>
               <li className="nav__item">
-                <a href="/" className="nav__link">
+                <ActiveLink to="/about" className="nav__link">
                   About
-                </a>
+                </ActiveLink>
               </li>
               <li className="nav__item">
-                <a href="/" className="nav__link">
+                <ActiveLink to="/" className="nav__link">
                   Contact
-                </a>
+                </ActiveLink>
               </li>
             </ul>
           </div>
