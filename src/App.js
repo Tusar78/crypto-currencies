@@ -1,7 +1,9 @@
+import Header from "./Components/Header/Header";
+
 function App() {
   return (
     <>
-      <button class="btn btn-info">Info</button>
+      <Header />
     </>
   );
 }
