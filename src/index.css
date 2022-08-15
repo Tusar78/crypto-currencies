@@ -2,3 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .navbar {
+    @apply w-full shadow;
+  }
+  
+  .nav {
+    @apply max-w-screen-xl mx-auto w-full flex justify-between;
+  }
+
+  .nav__logo {
+    @apply w-32 block;
+  }
+
+  .nav__list {
+    @apply flex space-x-6;
+  }
+}
