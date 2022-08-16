@@ -16,7 +16,7 @@ const Home = () => {
           <button className='hero__btn' onClick={handleNavigate}>Explore Now</button>
         </div>
         <div className="hero__image">
-          <img src="fungibletoken.jpg" alt="HeroImage" className="hero__img" />
+          <img src="crypto.svg" alt="HeroImage" className="hero__img" />
         </div>
       </div>
     </section>
