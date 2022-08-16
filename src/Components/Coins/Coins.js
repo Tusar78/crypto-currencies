@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Coin from "./Coin";
 
 const Coins = () => {
   const BASE__URL = "https://api.coingecko.com/api/v3/coins";
@@ -23,7 +24,7 @@ const Coins = () => {
         </div>
         <div className="crypto__container">
           {
-            coins.length
+            coins.map(coin => <Coin key={coin.id} coin={coin} />)
           }
         </div>
       </div>
