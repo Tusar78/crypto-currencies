@@ -10,7 +10,7 @@ const Header = () => {
       <div className="navbar">
         <nav className="nav">
           <Link to="/">
-            <img src="logo.png" alt="Website Logo" className="nav__logo" />
+            <img src='logo.png' alt="Website Logo" className="nav__logo" />
           </Link>
 
           <div className={toggle ? "nav__menu" : "nav__menu right-0"}>

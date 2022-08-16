@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import About from "./Components/About/About";
+import CoinDetails from "./Components/Coins/CoinDetails";
 import Coins from "./Components/Coins/Coins";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/coins" element={<Coins />} />
+        <Route path="/coin/:coinId" element={<CoinDetails />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />

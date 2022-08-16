@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import Coin from "./Coin";
 
 const Coins = () => {
-  const BASE__URL = "https://api.coingecko.com/api/v3/coins";
+  const BASE_URL = "https://api.coingecko.com/api/v3/coins";
   const [coins, setCoins] = useState([]);
 
   useEffect(() => {
     fetch(
-      `${BASE__URL}/markets?vs_currency=usd&order=market_cap_desc&per_page=200&page=1&sparkline=false`
+      `${BASE_URL}/markets?vs_currency=usd&order=market_cap_desc&per_page=200&page=1&sparkline=false`
     )
       .then((res) => res.json())
       .then((data) => setCoins(data));
