@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MdMenu, MdClose } from "react-icons/md";
+import { Link } from "react-router-dom";
 import ActiveLink from "../ActiveLink/ActiveLink";
 
 const Header = () => {
@@ -8,7 +9,9 @@ const Header = () => {
     <header className="header">
       <div className="navbar">
         <nav className="nav">
-          <img src="logo.png" alt="Website Logo" className="nav__logo" />
+          <Link to="/">
+            <img src="logo.png" alt="Website Logo" className="nav__logo" />
+          </Link>
 
           <div className={toggle ? "nav__menu" : "nav__menu right-0"}>
             <ul className="nav__list">

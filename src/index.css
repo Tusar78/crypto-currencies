@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 @layer components {
+  /* Responsive navigation */
   .navbar {
     @apply w-full shadow relative sm:static;
   }
@@ -34,6 +37,61 @@
   .nav__toggle-icon {
     @apply text-2xl text-gray-600 cursor-pointer;
   }
+
+  /* Hero section */
+  .home {
+    @apply p-4;
+  }
+
+  .hero-section {
+    @apply flex flex-col md:flex-row md:items-center max-w-screen-xl mx-auto; 
+  }
+
+  .hero__info {
+    @apply order-2 mt-6 md:order-1 md:basis-1/2;
+  }
+
+  .hero__title {
+    @apply text-3xl font-semibold lg:text-5xl lg:font-bold;
+  }
+
+  .hero__title--yellow {
+    @apply text-[#ffb820];
+  }
+
+  .hero__text {
+    @apply mt-1 text-base font-normal lg:text-xl lg:mt-2;
+  }
+
+  .hero__btn {
+    @apply mt-6 cursor-pointer px-5 py-2 bg-[#f99507] hover:bg-[#dd6e02] text-white text-base font-semibold lg:text-xl lg:mt-8;
+  }
+
+  .hero__image {
+    @apply order-1 md:order-2 md:basis-1/2;
+  }
+
+  /* Coins Section */
+  .crypto-section {
+    @apply w-full p-4;
+  }
+
+  .crypto-currencies {
+    @apply max-w-screen-xl mx-auto
+  }
+
+  .crypto__info {
+    @apply md:text-center
+  }
+
+  .crypto__title {
+    @apply text-3xl font-semibold lg:text-4xl lg:font-bold;
+  }
+
+  .crypto__text {
+    @apply mt-1 text-base font-normal lg:text-xl lg:mt-2 text-[#ffb820];
+  }
+
 }
 
 @layer utilities {
