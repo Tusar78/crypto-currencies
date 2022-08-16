@@ -92,7 +92,7 @@
 
   .crypto__text,
   .about__subtitle {
-    @apply mt-1 text-base font-normal lg:text-xl lg:mt-2 text-gray-300;
+    @apply mt-1 text-base font-normal lg:text-xl lg:mt-2 text-gray-400 lg:font-light;
   }
 
   .crypto__container  {
@@ -222,7 +222,7 @@
   }
   
   .answer {
-    @apply text-base md:text-xl;
+    @apply text-base md:text-xl lg:font-light;
   }
   
 }
