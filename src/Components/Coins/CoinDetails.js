@@ -79,10 +79,14 @@ const CoinDetails = () => {
         <div className="coin-details__image">
           <img src={image?.large} alt={name} className="coin-details__img" />
         </div>
+      </div>
+      <div className="coin-details">
         <div className="coin-details__desc">
           <h2 className="coin-details__title">Description:</h2>
           <div className="coin-details__description">
-            <p className="coin-details__single-info" title={description?.en}>{description?.en.substr(0, 600)}...</p>
+            <p className="coin-details__single-info" title={description?.en.length > 600 ? description?.en : ''}>
+              {description?.en.length > 600 ? description?.en.substr(0, 600) + '...' : description?.en} 
+            </p>
           </div>
         </div>
       </div>

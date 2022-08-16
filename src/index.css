@@ -119,19 +119,12 @@
 
   /* Coin details section */
   .coin-details {
-    @apply flex flex-col max-w-screen-xl mx-auto w-full p-4 mt-4;
+    @apply flex flex-col-reverse max-w-screen-lg mx-auto w-full p-4 mt-4 md:flex-row md:justify-between;
   }
 
-  .coin-details__info {
-    @apply order-2;
-  }
-
+  .coin-details__info,
   .coin-details__image {
-    @apply order-1
-  }
-
-  .coin-details__desc {
-    @apply order-3
+    @apply basis-2/4;
   }
 
   .coin-details__title {
@@ -142,8 +135,16 @@
     @apply pl-4 mt-1 mb-6 pr-4;
   }
 
+  .coin-details__single-info {
+    @apply break-all md:break-normal;
+  }
+
   .coin-details__image {
-    @apply self-center;
+    @apply self-center mb-4 md:mb-0;
+  }
+
+  .coin-details__img {
+    @apply md:ml-auto;
   }
 }
 
