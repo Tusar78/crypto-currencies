@@ -224,6 +224,14 @@
   .answer {
     @apply text-base md:text-xl lg:font-light;
   }
+
+  .contact__variant {
+    @apply w-full order-3 mt-8 md:absolute md:w-80 md:bg-[#f99407]/30 md:rounded-lg top-1 right-0 md:mt-0;
+  }
+
+  .individual-address {
+    @apply border rounded-lg p-4;
+  }
   
 }
 

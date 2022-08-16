@@ -9,10 +9,10 @@ const Coin = ({ coin }) => {
     navigate(path)
   }
   return (
-    <div class="coin" onClick={handleNavigate}>
+    <div className="coin" onClick={handleNavigate}>
       <img src={image} alt={name} className="coin__img" />
-      <div class="coin__info">
-        <h2 class="coin__name">{name}</h2>
+      <div className="coin__info">
+        <h2 className="coin__name">{name}</h2>
         <p className="coin__symbol">{symbol}</p>
       </div>
     </div>
