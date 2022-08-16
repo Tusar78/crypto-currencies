@@ -218,7 +218,7 @@
   }
 
   .question__id {
-    @apply absolute -top-3 -left-2 w-6 h-6 rounded-md flex items-center justify-center bg-[#fff2c6] text-xs text-[#b74b06] -z-10 font-bold;
+    @apply absolute -top-3 -left-2 w-6 h-6 rounded-md flex items-center justify-center bg-[#f99407] text-xs text-white -z-10 font-bold;
   }
   
   .answer {
