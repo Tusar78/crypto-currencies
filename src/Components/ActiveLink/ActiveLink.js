@@ -8,7 +8,7 @@ const ActiveLink = ({ children, to, ...props }) => {
     <>
       <Link 
         {...props}
-        className={match ? 'nav__link bg-[#fff1c5]' : 'nav__link bg-white'}
+        className={match ? 'nav__link bg-[#fff1c5]' : 'nav__link'}
         to={to}
       >
         {children}

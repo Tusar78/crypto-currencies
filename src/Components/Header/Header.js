@@ -13,22 +13,22 @@ const Header = () => {
           <div className={toggle ? "nav__menu" : "nav__menu right-0"}>
             <ul className="nav__list">
               <li className="nav__item">
-                <ActiveLink to="/home" className="nav__link">
+                <ActiveLink to="/home" className="nav__link"  onClick={() => setToggle(true)}>
                   Home
                 </ActiveLink>
               </li>
               <li className="nav__item">
-                <ActiveLink to="/coins" className="nav__link">
+                <ActiveLink to="/coins" className="nav__link"  onClick={() => setToggle(true)}>
                   Coins
                 </ActiveLink>
               </li>
               <li className="nav__item">
-                <ActiveLink to="/about" className="nav__link">
+                <ActiveLink to="/about" className="nav__link"  onClick={() => setToggle(true)}>
                   About
                 </ActiveLink>
               </li>
               <li className="nav__item">
-                <ActiveLink to="/" className="nav__link">
+                <ActiveLink to="/contact" className="nav__link"  onClick={() => setToggle(true)}>
                   Contact
                 </ActiveLink>
               </li>
