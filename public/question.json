@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "question": "What are cryptocurrencies?",
+    "answer": "This is a seemingly simple question, but since most people answer about what they think, hope, or want cryptocurrencies to be, it is a confusing one. Cryptocurrencies are a digital asset that started as a medium of exchange for people to buy goods and services. Over time, their functionality has expanded."
+  },
+  {
+    "id": 2,
+    "question": "Beyond a method for payment, what are other functions of cryptocurrencies?",
+    "answer": "Cryptocurrency value can be pegged to underlying asset such as U.S. dollar, central bank digital currencies, privacy coins (senders and receivers are anonymous), governance tokens (gives owners the right to vote in decisions regarding blockchain’s future development), utility tokens, and non-fungible tokens (distinct characteristics from all others). This is from a developer/development side. Of course, there are also investors and speculators who are hoping for appreciation. It is very important you know the intent and functionality of cryptocurrency you own or are considering owning."
+  },
+  {
+    "id": 3,
+    "question": "How are cryptocurrency transactions recorded?",
+    "answer": "Cryptocurrency transactions are recorded on a shared, digital ledger called a blockchain. This is decentralized technology, spread across many computers, that records every transaction."
+  },
+  {
+    "id": 4,
+    "question": "Are blockchain and cryptocurrencies the same? ",
+    "answer": "No. Blockchain is the technology that allows for cryptocurrencies to work. It is a decentralized and digital ledger of transactions used for cryptocurrencies and other assets/functions. It is important to separate the technology behind cryptocurrencies from the actual cryptocurrencies."
+  },
+  {
+    "id": 5,
+    "question": "Help me with the lingo — crypto, coins, tokens, ICOs.",
+    "answer": "Crypto — umbrella term for all digital and/or virtual currencies. Coins — Generally, any cryptocurrency that has its own separate blockchain. Tokens — Generally, any cryptocurrency that is built on top of existing blockchain, e.g., some companies issue their own cryptocurrencies, called tokens, which can be used to purchase goods or services specifically from issuing company. ICO — Short for Initial Coin Offering, this is analogous to a privately held company going public via an initial public offering (IPO)—a way to raise funds for a new cryptocurrency or expand services for existing coins"
+  },
+  {
+    "id": 6,
+    "question": "What are the top cryptocurrencies?",
+    "answer": "The most popular and widely heard of cryptocurrency is Bitcoin. As of early January 2021, the total cryptocurrency market is over $1 trillion, and Bitcoin is around $700 billion. Believe it or not, there are over 7,800 cryptocurrencies in existence and growing. The top five, with over 80 percent of the market value, are Bitcoin, Ethereum, XRP, Tether, and Litecoin."
+  },
+  {
+    "id": 7,
+    "question": "Why are there so many cryptocurrencies?",
+    "answer": "People saw the success of Bitcoin and tried to improve existing functionality and provide new functionality with new cryptocurrencies. Additionally, investors and developers were certainly trying to make money."
+  },
+  {
+    "id": 8,
+    "question": "Can cryptocurrencies fail?",
+    "answer": "Yes. It is estimated that close to 2,000 cryptocurrencies have failed. This is for a variety of reasons: lack of funding at start and after launch, failure to evolve, and a few were outright frauds. Many of the failures happened during the initial coin offering boom of 2017–2018."
+  },
+  {
+    "id": 9,
+    "question": "I hear cryptocurrencies are used for illicit/illegal activities; is this true? ",
+    "answer": "Since cryptocurrency operates on a decentralized network that lacks a central authority, it is possible to exchange cryptocurrency without registering an identity. Yes, since the start there have been criminal activities with cryptocurrencies. However, the blockchain publicly records every transaction, and while names are not assigned to addresses, you can trace activity back to a crypto exchange, which knows the end user. The estimates vary for how many transactions are for illegal activities and proponents of cryptocurrency point to illegal activity with traditional currencies. (Source: NY Times article Jan 2020)"
+  },
+  {
+    "id": 10,
+    "question": "Are there ways to purchase outside an exchange?",
+    "answer": "Believe it or not, there are Bitcoin ATMs. You insert cash and bitcoins are transferred to your secure, digital wallet. There are also peer-to-peer (PTP) exchanges. Users post what they are hoping to buy or sell and then choose their trading partner(s)."
+  }
+]

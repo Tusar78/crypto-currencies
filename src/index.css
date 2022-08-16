@@ -80,15 +80,18 @@
     @apply max-w-screen-xl w-full mx-auto;
   }
 
-  .crypto__info {
+  .crypto__info,
+  .about__header {
     @apply md:text-center md:mt-4 md:mb-4
   }
 
-  .crypto__title {
+  .crypto__title,
+  .about__title {
     @apply text-3xl font-semibold lg:text-4xl lg:font-bold;
   }
 
-  .crypto__text {
+  .crypto__text,
+  .about__subtitle {
     @apply mt-1 text-base font-normal lg:text-xl lg:mt-2 text-gray-300;
   }
 
@@ -195,6 +198,31 @@
   
   .copyright__text-link {
     @apply text-gray-400 hover:underline;
+  }
+
+  /* About section */
+  .about {
+    @apply max-w-screen-lg w-full mx-auto p-4
+  }
+
+  .about__subtitle {
+    @apply hidden md:block;
+  }
+
+  .about__question {
+    @apply mt-8 md:mt-12 grid gap-8;
+  }
+
+  .question {
+    @apply text-2xl lg:text-3xl font-semibold text-gray-600 relative mb-2;
+  }
+
+  .question__id {
+    @apply absolute -top-3 -left-2 w-6 h-6 rounded-md flex items-center justify-center bg-[#fff2c6] text-xs text-[#b74b06] -z-10 font-bold;
+  }
+  
+  .answer {
+    @apply text-base md:text-xl;
   }
   
 }
