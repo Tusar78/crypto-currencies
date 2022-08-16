@@ -117,6 +117,34 @@
     @apply text-xs;
   }
 
+  /* Coin details section */
+  .coin-details {
+    @apply flex flex-col max-w-screen-xl mx-auto w-full p-4 mt-4;
+  }
+
+  .coin-details__info {
+    @apply order-2;
+  }
+
+  .coin-details__image {
+    @apply order-1
+  }
+
+  .coin-details__desc {
+    @apply order-3
+  }
+
+  .coin-details__title {
+    @apply text-3xl first-letter:bg-[#ffe288] font-medium text-gray-600;
+  }
+
+  .coin-details__description {
+    @apply pl-4 mt-1 mb-6 pr-4;
+  }
+
+  .coin-details__image {
+    @apply self-center;
+  }
 }
 
 @layer utilities {
