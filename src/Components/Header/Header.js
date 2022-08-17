@@ -23,42 +23,34 @@ const Header = () => {
 
           <div className={toggle ? "nav__menu" : "nav__menu right-0"}>
             <ul className="nav__list">
-              <li className="nav__item">
-                <ActiveLink
-                  to="/home"
-                  className="nav__link"
-                  onClick={() => setToggle(true)}
-                >
-                  Home
-                </ActiveLink>
-              </li>
-              <li className="nav__item">
-                <ActiveLink
-                  to="/coins"
-                  className="nav__link"
-                  onClick={() => setToggle(true)}
-                >
-                  Coins
-                </ActiveLink>
-              </li>
-              <li className="nav__item">
-                <ActiveLink
-                  to="/about"
-                  className="nav__link"
-                  onClick={() => setToggle(true)}
-                >
-                  About
-                </ActiveLink>
-              </li>
-              <li className="nav__item">
-                <ActiveLink
-                  to="/contact"
-                  className="nav__link"
-                  onClick={() => setToggle(true)}
-                >
-                  Contact
-                </ActiveLink>
-              </li>
+              <ActiveLink
+                to="/home"
+                className="nav__link"
+                onClick={() => setToggle(true)}
+              >
+                <li className="nav__item">Home</li>
+              </ActiveLink>
+              <ActiveLink
+                to="/coins"
+                className="nav__link"
+                onClick={() => setToggle(true)}
+              >
+                <li className="nav__item">Coins</li>
+              </ActiveLink>
+              <ActiveLink
+                to="/about"
+                className="nav__link"
+                onClick={() => setToggle(true)}
+              >
+                <li className="nav__item">About</li>
+              </ActiveLink>
+              <ActiveLink
+                to="/contact"
+                className="nav__link"
+                onClick={() => setToggle(true)}
+              >
+                <li className="nav__item">Contact</li>
+              </ActiveLink>
             </ul>
           </div>
 
