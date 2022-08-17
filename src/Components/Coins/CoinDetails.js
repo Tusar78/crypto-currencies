@@ -97,7 +97,7 @@ const CoinDetails = () => {
               />
             </div>
           </div>
-          <div className="coin-details">
+          <div className="coin-details mt-0">
             <div className="coin-details__desc">
               <h2 className="coin-details__title">Description:</h2>
               <div className="coin-details__description">
