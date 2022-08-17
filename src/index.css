@@ -232,6 +232,11 @@
   .individual-address {
     @apply border rounded-lg p-4;
   }
+
+  /* Loader design */
+  .loading {
+    @apply w-full h-screen grid place-items-center;
+  }
   
 }
 
