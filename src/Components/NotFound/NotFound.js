@@ -1,9 +1,12 @@
-import React from 'react';
+import React from "react";
 
 const NotFound = () => {
   return (
-    <div>
-      <h2>Hello Not Found</h2>
+    <div className="w-full h-screen grid place-items-center">
+      <div>
+        <h1>404</h1>
+        <p>Page Not Found</p>
+      </div>
     </div>
   );
 };
